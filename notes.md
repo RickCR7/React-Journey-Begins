@@ -120,9 +120,39 @@ custom hooks are nothing but user made javascript function which can return js e
 
 #### Whenever using hooks on JSX , you should give a key
 
+## React-router-dom:
+
 #### React Router Dom is not an essential core part of react, it is a #rd party library.
 
 #### Do not use <a> tag, because it refreshes the whole page.In react we use <Link> tag.
 
 
 #### In <Navlink> we use only className and pass a callback function into it.We also get isActive inside <Navlink>.
+
+
+## Context API:
+* There was a major issue for data paasing in react.We have to pass props under props and so on.So this was not an optimized way.That's where the concept of Context API came first.
+
+* It comes by default with react library.
+
+* This problem is known as Prop drilling.
+
+#### N.B.
+1. Redux
+2. react-Redux
+3. Redux-toolkit(RTK)
+
+## useContext:
+useContext is a React Hook that lets you read and subscribe to context from your component.
+
+```const value = useContext(SomeContext)```
+
+### Reference:
+* useContext(SomeContext)
+
+### Usage:
+1. Passing data deeply into the tree
+2. Updating data passed via context
+3. Specifying a fallback default value
+4. Overriding context for a part of the tree
+5. Optimizing re-renders when passing objects and functions
