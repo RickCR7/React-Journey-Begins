@@ -119,3 +119,10 @@ custom hooks are nothing but user made javascript function which can return js e
 * custom hooks can also use built in hooks of react.
 
 #### Whenever using hooks on JSX , you should give a key
+
+#### React Router Dom is not an essential core part of react, it is a #rd party library.
+
+#### Do not use <a> tag, because it refreshes the whole page.In react we use <Link> tag.
+
+
+#### In <Navlink> we use only className and pass a callback function into it.We also get isActive inside <Navlink>.
