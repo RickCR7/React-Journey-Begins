@@ -100,7 +100,7 @@ useEffect is a React Hook that lets you synchronize a component with an external
 9. Reading the latest props and state from an Effect
 10. Displaying different content on the server and the client
 
-### useRef:
+### 23. useRef:
 useRef is a React Hook that lets you reference a value that’s not needed for rendering.
 
 ``` const ref = useRef(initialValue) ```
@@ -113,16 +113,16 @@ useRef is a React Hook that lets you reference a value that’s not needed for r
 2. Manipulating the DOM with a ref
 3. Avoiding recreating the ref contents
 
-### Custom Hooks:
+### 24. Custom Hooks:
 custom hooks are nothing but user made javascript function which can return js elements or jsx elements
 
 * custom hooks can also use built in hooks of react.
 
-#### Whenever using hooks on JSX , you should give a key
+#### 25. Whenever using hooks on JSX , you should give a key
 
-## React-router-dom:
+## 26. React-router-dom:
 
-#### React Router Dom is not an essential core part of react, it is a #rd party library.
+#### React Router Dom is not an essential core part of react, it is a 3rd party library.
 
 #### Do not use <a> tag, because it refreshes the whole page.In react we use <Link> tag.
 
@@ -130,7 +130,7 @@ custom hooks are nothing but user made javascript function which can return js e
 #### In <Navlink> we use only className and pass a callback function into it.We also get isActive inside <Navlink>.
 
 
-## Context API:
+## 27. Context API:
 * There was a major issue for data paasing in react.We have to pass props under props and so on.So this was not an optimized way.That's where the concept of Context API came first.
 
 * It comes by default with react library.
@@ -142,7 +142,7 @@ custom hooks are nothing but user made javascript function which can return js e
 2. react-Redux
 3. Redux-toolkit(RTK)
 
-## useContext:
+## 28. useContext:
 useContext is a React Hook that lets you read and subscribe to context from your component.
 
 ```const value = useContext(SomeContext)```
@@ -156,3 +156,6 @@ useContext is a React Hook that lets you read and subscribe to context from your
 3. Specifying a fallback default value
 4. Overriding context for a part of the tree
 5. Optimizing re-renders when passing objects and functions
+
+
+#### 29. We can pass variables as well as methods inside React.createContext().Although we can pass nothing inside it that is also possible.
