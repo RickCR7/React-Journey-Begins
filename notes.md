@@ -159,3 +159,40 @@ useContext is a React Hook that lets you read and subscribe to context from your
 
 
 #### 29. We can pass variables as well as methods inside React.createContext().Although we can pass nothing inside it that is also possible.
+
+
+### 30. localstorage:
+* getItems(key)
+* setItems(key, value)
+
+### 31. Redux - 1.State Management Library
+###             2. A state container for js apps.
+* react-redux : A bridge for connecting redux with react
+
+* Flux - Developed by Facebook
+
+* Dataflow in context api is not as good as Redux or Flux
+
+* Redux was inspired by Flux
+
+* Redux-toolkit : More abstraction, slicing concept introduced, store configuration made easy
+
+
+#### 1. store, 2. reducers, 3. useSelector, 4.useDispatch
+
+#### useDispatch and useSelector come from react-redux
+
+#### useDispatch uses reducers to make some changes in the store
+
+
+### Steps :
+1. create a store
+  * import configureStore and give the access of all reducers to the store.
+2. create a slice
+    * name:
+    * initial state:
+    * reducers: 
+3. export all reducers individually
+4. make components and use the reducers by importing them(N.B. - useSelector(to take) and useDispatch(to give))
+5. import the components in the app.jsx
+6. in the main.jsx wrap the app using provider whice is imported from react-redux(Provider neeed a value as store which we built earlier)
